@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <center><h1 class="head">Welcome to Game</h1></center>
+
+    <center><h4 class="startGame">Please Choose a Choice...</h4></center>
+
+    <div class="container" >
+        <div class="child"><img src="./stone.png" alt="" onclick="check1()" ></div>
+        <div class="child"><img src="./paper.png" alt="" onclick="check2()" ></div>
+        <div class="child"><img src="./scissor.png" alt="" onclick="check3()"></div>
+    </div>
+    <center><h4 class="startGame">Your answer show below...</h4></center>
+    <div class="answers">
+    <input type="text" value="" class="answerValue" id="show1" readonly><br>
+    <input type="text" value="" class="answerValue" id="show2" readonly><br>
+    <input type="text" value="" class="answerValue" id="answer" readonly style="font-size:large;color: aliceblue;"><br>
+</div>
+</body>
+<script src="./index.js"></script>
+</html>
